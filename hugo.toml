@@ -1,0 +1,12 @@
+baseURL = "/"
+languageCode = "de-DE"
+title = "Unser Adventskalender"
+disableKinds = ["taxonomy", "term", "RSS", "sitemap"]
+
+[params]
+  jahr = 2026
+  hochzeit = "2027-07-02"
+  hochzeitOrt = "Hofgut Dagobertshausen"
+  # Namen der beiden Hälften (Hälfte A / Hälfte B)
+  nameA = "Maxi"
+  nameB = "Anna-Lena"

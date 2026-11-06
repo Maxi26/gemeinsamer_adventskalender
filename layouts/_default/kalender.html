@@ -1,0 +1,46 @@
+{{ define "bodyclass" }}kalender half-{{ .Params.haelfte }}{{ end }}
+{{ define "main" }}
+{{ $half := .Params.haelfte }}
+{{ $labels := dict "frage" "Frage" "spiel" "Spiel" "aufgabe" "Aufgabe" "gespraech" "Gespräch" "hochzeit" "Hochzeit" }}
+{{ $hints := dict
+  "frage" "Antwortet nacheinander, jeweils etwa zwei Minuten, ohne zu unterbrechen."
+  "spiel" "Spielt es gleich zusammen. Nicht schummeln, Lachen ausdrücklich erlaubt."
+  "aufgabe" "Erzählt euch danach kurz, wie es sich angefühlt hat."
+  "gespraech" "Nehmt euch Zeit. Abschweifen ist ausdrücklich erwünscht."
+  "hochzeit" "Ein kleiner Schritt in Richtung 2. Juli 2027. Hebt es gern auf."
+}}
+<header class="cal-head">
+  <a class="back" href="{{ "" | relURL }}">← Zurück</a>
+  <p class="eyebrow">Adventskalender {{ site.Params.jahr }}</p>
+  <h1>{{ .Title }}</h1>
+  <div id="advent-status" class="status" role="status"></div>
+</header>
+
+<main>
+  <ol class="grid" data-half="{{ $half }}">
+    {{ range site.Data.tage }}
+    <li>
+      <button class="door" type="button" data-tag="{{ .tag }}" aria-label="Türchen {{ .tag }}">
+        <span class="num">{{ .tag }}</span>
+        <span class="icon" aria-hidden="true"></span>
+      </button>
+      <template id="inhalt-{{ .tag }}">
+        <p class="kind">{{ index $labels .typ }} · ca. {{ .minuten }} Min.</p>
+        <h2>{{ .titel }}</h2>
+        <p class="text">{{ if eq $half "a" }}{{ .a }}{{ else }}{{ .b }}{{ end }}</p>
+        <p class="hint">{{ index $hints .typ }}</p>
+        <p class="partner">Dein Schatz hat heute eine andere Karte. Beide gehören zusammen – erzählt euch davon.</p>
+      </template>
+    </li>
+    {{ end }}
+  </ol>
+</main>
+
+<dialog id="modal" aria-labelledby="modal-title">
+  <div class="modal-inner">
+    <p class="modal-day" id="modal-day"></p>
+    <div id="modal-content"></div>
+    <button type="button" class="close" id="close">Schließen</button>
+  </div>
+</dialog>
+{{ end }}

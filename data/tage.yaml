@@ -1,0 +1,145 @@
+# Jeder Tag: typ (frage|spiel|aufgabe|gespraech|hochzeit), minuten, a = Text für Hälfte A, b = Text für Hälfte B
+- tag: 1
+  typ: spiel
+  titel: Rate den Moment
+  minuten: 5
+  a: "Such dir einen gemeinsamen Moment aus, der dir viel bedeutet. Beschreibe ihn nur über Geräusche und Gerüche – ohne Ort, ohne Namen. Dein Schatz rät."
+  b: "Such dir einen gemeinsamen Ort aus, an dem du dich besonders wohlgefühlt hast. Beschreibe ihn nur über Farben und Temperatur. Dein Schatz rät."
+- tag: 2
+  typ: frage
+  titel: Kleine Dinge
+  minuten: 3
+  a: "Welche Kleinigkeit würde dir heute richtig guttun – und kann dein Schatz sie dir geben?"
+  b: "Wofür bist du deinem Schatz in letzter Zeit besonders dankbar, ohne es je gesagt zu haben?"
+- tag: 3
+  typ: frage
+  titel: Rückblick auf dieses Jahr
+  minuten: 4
+  a: "Welcher Moment dieses Jahres ist dir am schönsten in Erinnerung geblieben?"
+  b: "Was hat dich dieses Jahr am meisten überrascht – an dir selbst oder an euch beiden?"
+- tag: 4
+  typ: aufgabe
+  titel: Drei konkrete Komplimente
+  minuten: 3
+  a: "Sag deinem Schatz drei Dinge, die du heute an ihm/ihr bewunderst. Konkret, nicht allgemein."
+  b: "Sag deinem Schatz drei Dinge, die du an eurem gemeinsamen Alltag gerade besonders magst."
+- tag: 5
+  typ: spiel
+  titel: Zwei Wahrheiten, eine Lüge
+  minuten: 5
+  a: "Erzähle drei „Erinnerungen“ an eure Anfangszeit. Zwei stimmen, eine ist erfunden. Dein Schatz muss die Lüge finden."
+  b: "Erzähle drei „Erinnerungen“ an euren schönsten gemeinsamen Urlaub. Zwei stimmen, eine ist erfunden. Dein Schatz muss die Lüge finden."
+- tag: 6
+  typ: aufgabe
+  titel: Nikolaus für zwei
+  minuten: 5
+  a: "Schreib einen Zettel mit etwas, das du an deinem Schatz liebst, und versteck ihn heute irgendwo: Jackentasche, Kaffeetasse, Schuh."
+  b: "Besorge oder bastle eine winzige Nikolausüberraschung (unter 3 €) und stell sie deinem Schatz heute Abend hin."
+- tag: 7
+  typ: gespraech
+  titel: Was uns trägt
+  minuten: 10
+  a: "Welche drei Werte sollen eure Ehe tragen? Warum genau diese?"
+  b: "Welche Gewohnheit aus deiner Herkunftsfamilie möchtest du in eure Ehe mitnehmen – und welche bewusst nicht?"
+- tag: 8
+  typ: hochzeit
+  titel: Songs für den Tanz
+  minuten: 4
+  a: "Nenne einen Song, bei dem du an deinen Schatz denken musst, und erzähl, warum."
+  b: "Nenne einen Song, der bei eurer Hochzeit unbedingt zum Tanzen laufen soll – und was du dabei gerne tun würdest."
+- tag: 9
+  typ: frage
+  titel: Weihnachten früher
+  minuten: 4
+  a: "Welche Weihnachtstradition aus deiner Kindheit liebst du bis heute?"
+  b: "Welcher Geruch oder welches Essen bedeutet für dich „Weihnachten zuhause“?"
+- tag: 10
+  typ: aufgabe
+  titel: Drei Minuten Entspannung
+  minuten: 5
+  a: "Schenke deinem Schatz heute drei Minuten Hand- oder Nackenmassage. Ohne Handy, ohne Reden."
+  b: "Genieße die Massage. Sag danach, was am meisten gutgetan hat. Morgen oder übermorgen tauscht ihr."
+- tag: 11
+  typ: gespraech
+  titel: Ein ganz normaler Dienstag
+  minuten: 8
+  a: "Wo siehst du euch in fünf Jahren an einem ganz normalen Dienstagabend? Beschreibe die Szene genau."
+  b: "Was ist ein Traum, den du dir bisher kaum laut zu sagen getraut hast?"
+- tag: 12
+  typ: spiel
+  titel: Kennst du mich?
+  minuten: 6
+  a: "Schreib heimlich vier Vermutungen über deinen Schatz auf: Lieblingsessen im Winter, nervigstes Alltagsgeräusch, Lieblingsplatz in der Wohnung, Traumreiseziel."
+  b: "Beantworte diese vier Fragen für dich selbst auf einem Zettel: Lieblingsessen im Winter, nervigstes Alltagsgeräusch, Lieblingsplatz in der Wohnung, Traumreiseziel."
+- tag: 13
+  typ: hochzeit
+  titel: Versprechen
+  minuten: 5
+  a: "Schreib einen Satz, den du in deinem Eheversprechen sagen möchtest. Er muss noch nicht perfekt sein."
+  b: "Schreib ein kleines Alltagsversprechen auf, das du deinem Schatz ab heute geben möchtest – klein und ehrlich."
+- tag: 14
+  typ: gespraech
+  titel: Wenn es mal knirscht
+  minuten: 8
+  a: "Wie möchtest du in einem Streit behandelt werden? Was hilft dir, was nicht?"
+  b: "Woran merkt dein Schatz, dass du kurz Abstand brauchst – und wie holt er/sie dich danach am besten zurück?"
+- tag: 15
+  typ: aufgabe
+  titel: Bild statt Worte
+  minuten: 5
+  a: "Such ein Foto von euch beiden, das dir viel bedeutet, und schick es deinem Schatz mit nur drei Wörtern dazu."
+  b: "Mach heute ein Foto von etwas, das dich an deinen Schatz erinnert, und schick es ohne Erklärung. Er/sie rät, warum."
+- tag: 16
+  typ: spiel
+  titel: Traumreise
+  minuten: 6
+  a: "Beschreibe einen perfekten Tag auf eurer Traumreise – vom Aufwachen bis zum Abend."
+  b: "Beschreibe den kleinsten Luxus, den du auf dieser Reise auf keinen Fall missen möchtest."
+- tag: 17
+  typ: frage
+  titel: Unausgesprochener Dank
+  minuten: 5
+  a: "Welche Eigenschaft von deinem Schatz hat dir im letzten Jahr besonders geholfen?"
+  b: "Was hat dein Schatz getan, das er/sie längst vergessen hat, du aber nie?"
+- tag: 18
+  typ: aufgabe
+  titel: Kerzenabend
+  minuten: 10
+  a: "Zünde heute Abend eine Kerze an und leg beide Handys für zehn Minuten außer Reichweite."
+  b: "Bring eine Frage mit: „Was war heute dein schönster Moment?“ – und hör dann nur zu."
+- tag: 19
+  typ: hochzeit
+  titel: Vorfreude und Respekt
+  minuten: 8
+  a: "Auf welchen Moment des Hochzeitstags freust du dich am meisten?"
+  b: "Wovor hast du leise Respekt – und was könnte dein Schatz tun, damit es leichter wird?"
+- tag: 20
+  typ: spiel
+  titel: Sätze zu Ende bringen
+  minuten: 5
+  a: "„Ich fühle mich dir am nächsten, wenn …“ – sprich spontan weiter, ohne nachzudenken."
+  b: "„Ich fühle mich von dir am meisten gesehen, wenn …“ – sprich spontan weiter, ohne nachzudenken."
+- tag: 21
+  typ: aufgabe
+  titel: Längste Nacht
+  minuten: 10
+  a: "Heute ist Wintersonnenwende. Plant einen kurzen Spaziergang im Dunkeln – mit Taschenlampe oder Laterne."
+  b: "Nimm diese Frage mit: „Was möchtest du im neuen Jahr hinter dir lassen?“"
+- tag: 22
+  typ: frage
+  titel: Das haben wir geschafft
+  minuten: 5
+  a: "Nenne drei Dinge, die euch dieses Jahr gemeinsam gelungen sind."
+  b: "Nenne eine Sache, die ihr 2027 bewusst anders machen möchtet – und eine, die bleiben soll."
+- tag: 23
+  typ: hochzeit
+  titel: Zeitkapsel
+  minuten: 15
+  a: "Schreib einen kurzen Brief an euch beide am Morgen eurer Hochzeit. Steck ihn in einen Umschlag, ungeöffnet."
+  b: "Schreib drei Dinge auf, die du bis zur Hochzeit mit deinem Schatz erleben oder lernen möchtest. Ab in den Umschlag – geöffnet wird erst am Hochzeitstag."
+- tag: 24
+  typ: gespraech
+  titel: Heiligabend
+  minuten: 10
+  a: "Beginne mit: „Ich wünsche uns für das kommende Jahr …“ – und sprich den Satz zu Ende."
+  b: "Was würdest du deinem Schatz schenken, wenn Geld keine Rolle spielte – und warum genau das?"

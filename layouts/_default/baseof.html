@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="theme-color" content="#faf6ee">
+  <title>{{ .Title }}</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="{{ "css/style.css" | relURL }}">
+</head>
+<body class="{{ block "bodyclass" . }}{{ end }}"
+      data-jahr="{{ site.Params.jahr }}"
+      data-hochzeit="{{ site.Params.hochzeit }}">
+  {{ block "main" . }}{{ end }}
+  <footer class="footer">
+    <p id="hochzeit-countdown" class="countdown"></p>
+    <p class="small">{{ site.Params.nameA }} &amp; {{ site.Params.nameB }} · 2. Juli 2027 · {{ site.Params.hochzeitOrt }}</p>
+  </footer>
+  <script src="{{ "js/calendar.js" | relURL }}"></script>
+</body>
+</html>

@@ -1,0 +1,26 @@
+{{ define "bodyclass" }}home{{ end }}
+{{ define "main" }}
+<main class="hero">
+  <div class="sprig-row">
+    <span class="sprig-l">{{ partial "sprig.html" . }}</span>
+    <span class="sprig-r">{{ partial "sprig.html" . }}</span>
+  </div>
+  <p class="eyebrow">Adventskalender {{ site.Params.jahr }}</p>
+  <h1>{{ site.Params.nameA }} <span class="amp">&amp;</span> {{ site.Params.nameB }}</h1>
+  <p class="lead">Vierundzwanzig kleine Momente nur für euch. Jeden Tag bekommt ihr jeweils eine eigene Karte – sie passen zusammen, funktionieren aber erst im Gespräch miteinander.</p>
+
+  <div id="advent-status" class="status" role="status"></div>
+
+  <div class="choose">
+    <a class="half" href="{{ "maxi/" | relURL }}">
+      <span class="half-label">Hälfte A</span>
+      <span class="half-name">{{ site.Params.nameA }}</span>
+    </a>
+    <a class="half" href="{{ "anna-lena/" | relURL }}">
+      <span class="half-label">Hälfte B</span>
+      <span class="half-name">{{ site.Params.nameB }}</span>
+    </a>
+  </div>
+  <p class="small hint">Tipp: Öffnet eure Türchen erst, wenn ihr beide Zeit habt – 2 bis 15 Minuten reichen.</p>
+</main>
+{{ end }}
