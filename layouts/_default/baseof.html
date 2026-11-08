@@ -12,12 +12,10 @@
   <link rel="stylesheet" href="{{ "css/style.css" | relURL }}">
 </head>
 <body class="{{ block "bodyclass" . }}{{ end }}"
-      data-jahr="{{ site.Params.jahr }}"
-      data-hochzeit="{{ site.Params.hochzeit }}">
+      data-jahr="{{ site.Params.jahr }}">
   {{ block "main" . }}{{ end }}
   <footer class="footer">
-    <p id="hochzeit-countdown" class="countdown"></p>
-    <p class="small">{{ site.Params.nameA }} &amp; {{ site.Params.nameB }} · 2. Juli 2027 · {{ site.Params.hochzeitOrt }}</p>
+    <p class="small">{{ site.Params.nameA }} &amp; {{ site.Params.nameB }}</p>
   </footer>
   <script src="{{ "js/calendar.js" | relURL }}"></script>
 </body>

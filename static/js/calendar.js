@@ -33,12 +33,15 @@
     }
   }
 
-  // Countdown zur Hochzeit
-  var cd = document.getElementById("hochzeit-countdown");
-  if (cd && body.dataset.hochzeit) {
-    var t = new Date(body.dataset.hochzeit + "T00:00:00");
-    var d = Math.ceil((t - now) / 86400000);
-    cd.textContent = d > 0 ? "Noch " + d + " Tage bis zu eurer Hochzeit" : (d === 0 ? "Heute ist euer Tag!" : "");
+  // Schneeflocken
+  for (var i = 0; i < 16; i++) {
+    var f = document.createElement("span");
+    f.className = "flake"; f.textContent = i % 3 ? "❄" : "✦";
+    f.style.left = Math.random() * 100 + "vw";
+    f.style.fontSize = (0.7 + Math.random() * 0.9) + "rem";
+    f.style.animationDuration = (10 + Math.random() * 12) + "s";
+    f.style.animationDelay = (-Math.random() * 20) + "s";
+    body.appendChild(f);
   }
 
   var grid = document.querySelector(".grid");

@@ -7,10 +7,11 @@
   "spiel" "Spielt es gleich zusammen. Nicht schummeln, Lachen ausdrücklich erlaubt."
   "aufgabe" "Erzählt euch danach kurz, wie es sich angefühlt hat."
   "gespraech" "Nehmt euch Zeit. Abschweifen ist ausdrücklich erwünscht."
-  "hochzeit" "Ein kleiner Schritt in Richtung 2. Juli 2027. Hebt es gern auf."
+  "hochzeit" "Ein kleiner Schritt in Richtung Hochzeit. Hebt es gern auf."
 }}
 <header class="cal-head">
   <a class="back" href="{{ "" | relURL }}">← Zurück</a>
+  <div class="head-deco"><span class="deco c1">{{ partial "candy.html" . }}</span><span class="deco c2">{{ partial "candy.html" . }}</span></div>
   <p class="eyebrow">Adventskalender {{ site.Params.jahr }}</p>
   <h1>{{ .Title }}</h1>
   <div id="advent-status" class="status" role="status"></div>

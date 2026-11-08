@@ -3,8 +3,8 @@
   typ: spiel
   titel: Rate den Moment
   minuten: 5
-  a: "Such dir einen gemeinsamen Moment aus, der dir viel bedeutet. Beschreibe ihn nur über Geräusche und Gerüche – ohne Ort, ohne Namen. Dein Schatz rät."
-  b: "Such dir einen gemeinsamen Ort aus, an dem du dich besonders wohlgefühlt hast. Beschreibe ihn nur über Farben und Temperatur. Dein Schatz rät."
+  a: "Such dir einen gemeinsamen Moment aus, der dir viel bedeutet. Beschreibe ihn nur über Gerüche und Temperatur – ohne Ort, ohne Namen. Dein Schatz rät."
+  b: "Such dir einen gemeinsamen Ort aus, an dem du dich besonders wohlgefühlt hast. Beschreibe ihn nur über Farben und Licht. Dein Schatz rät."
 - tag: 2
   typ: frage
   titel: Kleine Dinge
@@ -34,7 +34,7 @@
   titel: Nikolaus für zwei
   minuten: 5
   a: "Schreib einen Zettel mit etwas, das du an deinem Schatz liebst, und versteck ihn heute irgendwo: Jackentasche, Kaffeetasse, Schuh."
-  b: "Besorge oder bastle eine winzige Nikolausüberraschung (unter 3 €) und stell sie deinem Schatz heute Abend hin."
+  b: "Schreib deinem Schatz einen kleinen Nikolausgruß in Reimform – drei Zeilen reichen – und lies ihn heute Abend vor."
 - tag: 7
   typ: gespraech
   titel: Was uns trägt
@@ -69,8 +69,8 @@
   typ: spiel
   titel: Kennst du mich?
   minuten: 6
-  a: "Schreib heimlich vier Vermutungen über deinen Schatz auf: Lieblingsessen im Winter, nervigstes Alltagsgeräusch, Lieblingsplatz in der Wohnung, Traumreiseziel."
-  b: "Beantworte diese vier Fragen für dich selbst auf einem Zettel: Lieblingsessen im Winter, nervigstes Alltagsgeräusch, Lieblingsplatz in der Wohnung, Traumreiseziel."
+  a: "Schreib heimlich vier Vermutungen über deinen Schatz auf: Lieblingsessen im Winter, liebste Abendroutine, Lieblingsplatz in der Wohnung, Traumreiseziel."
+  b: "Beantworte diese vier Fragen für dich selbst auf einem Zettel: Lieblingsessen im Winter, liebste Abendroutine, Lieblingsplatz in der Wohnung, Traumreiseziel."
 - tag: 13
   typ: hochzeit
   titel: Versprechen
@@ -103,9 +103,9 @@
   b: "Was hat dein Schatz getan, das er/sie längst vergessen hat, du aber nie?"
 - tag: 18
   typ: aufgabe
-  titel: Kerzenabend
+  titel: Lichterabend
   minuten: 10
-  a: "Zünde heute Abend eine Kerze an und leg beide Handys für zehn Minuten außer Reichweite."
+  a: "Dimmt heute Abend das Licht und legt beide Handys für zehn Minuten außer Reichweite."
   b: "Bring eine Frage mit: „Was war heute dein schönster Moment?“ – und hör dann nur zu."
 - tag: 19
   typ: hochzeit
@@ -123,7 +123,7 @@
   typ: aufgabe
   titel: Längste Nacht
   minuten: 10
-  a: "Heute ist Wintersonnenwende. Plant einen kurzen Spaziergang im Dunkeln – mit Taschenlampe oder Laterne."
+  a: "Heute ist Wintersonnenwende. Plant einen kurzen Spaziergang im Dunkeln – die Handy-Taschenlampe reicht."
   b: "Nimm diese Frage mit: „Was möchtest du im neuen Jahr hinter dir lassen?“"
 - tag: 22
   typ: frage
@@ -135,8 +135,8 @@
   typ: hochzeit
   titel: Zeitkapsel
   minuten: 15
-  a: "Schreib einen kurzen Brief an euch beide am Morgen eurer Hochzeit. Steck ihn in einen Umschlag, ungeöffnet."
-  b: "Schreib drei Dinge auf, die du bis zur Hochzeit mit deinem Schatz erleben oder lernen möchtest. Ab in den Umschlag – geöffnet wird erst am Hochzeitstag."
+  a: "Schreib einen kurzen Brief an euch beide am Morgen eurer Hochzeit. Faltet ihn zusammen und legt ihn an einen sicheren Ort, ungeöffnet."
+  b: "Schreib drei Dinge auf, die du bis zur Hochzeit mit deinem Schatz erleben oder lernen möchtest. Legt den Zettel zum Brief – geöffnet wird erst am Hochzeitstag."
 - tag: 24
   typ: gespraech
   titel: Heiligabend
