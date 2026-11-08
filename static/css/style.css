@@ -97,3 +97,6 @@ dialog[open]{animation:pop .3s ease}
 main,.footer,.cal-head,dialog{position:relative;z-index:1}
 dialog{z-index:auto}
 @media (prefers-reduced-motion:reduce){.flake{display:none}}
+@media (prefers-color-scheme: dark){
+  .flake{color:#eaf3fa;opacity:.85;text-shadow:0 0 6px rgba(234,243,250,.6)}
+}
